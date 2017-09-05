@@ -1,0 +1,5 @@
+The program I have written is in a big infinite while loop in which I exit from when the wining condition is detected. The first for loop keeps track of who is rolling the die. The first if statement makes sure that the person can only roll more than 3 times if they have more than 3 dollars. The other if statement controls what is printed. The nested for loop determines how many times they roll. The first if statement checks if they roll left. The special case for this one is if the first person rolls left, they give the money to the last person. The second if statement checks if they roll right. The special case for this one is if the last person rolls right, they give the money to the last person. The third if statement checks if they roll center, which just subtracts their money and increments the money in the pot. The else statement just prints that they get a pass. The for loop checks if only one person has money and if it does, it prints the winning statement and exits the program. 
+
+Files: lrc.c, Makefile, README.txt
+
+To run the program, just compile it using "make" and typing ./lrc.
